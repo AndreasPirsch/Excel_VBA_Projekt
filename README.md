@@ -5,9 +5,13 @@ Das vorliegende Tool dient der digitalen Verwaltung von Urlaubsanträgen in Exce
 2. Funktionen im Überblick
 •	Automatische Konfliktprüfung (s. Code in Modul_UrlaubPruefen)
 prüft bei jedem Antrag auf Überschneidungen mit bereits genehmigten Anträgen.
+
 •	Farbliche Statusanzeige (s. Code in Modul_UrlaubPruefen)
+
 o	Grün: Kein Konflikt
+
 o	Rot: Überschneidung
+
 o	Status basiert auf „offen“, „genehmigt“, „abgelehnt“
 
 
