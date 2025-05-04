@@ -1,8 +1,10 @@
 # Excel_VBA_Projekt
-1. Use-Case
+**1. Use-Case:**
+
 Das vorliegende Tool dient der digitalen Verwaltung von Urlaubsanträgen in Excel. Ziel ist es, Prozesse zur Antragstellung, Konfliktprüfung und Verwaltung effizient zu gestalten und in einer nutzerfreundlichen Umgebung darzustellen.
 
-2. Funktionen im Überblick
+**2. Funktionen im Überblick:**
+
 •	Automatische Konfliktprüfung (s. Code in Modul_UrlaubPruefen)
 prüft bei jedem Antrag auf Überschneidungen mit bereits genehmigten Anträgen.
 
@@ -48,9 +50,11 @@ Abbildung 3: Code aus Tabelle1(Urlaubsanträge)
 Sobald sich der Status eines Urlaubsantrags ändert (z. B. von offen zu genehmigt oder abgelehnt), wird automatisch eine E-Mail über Microsoft Outlook generiert. Diese informiert über den Antragsteller, den Zeitraum und den neuen Status.
 Die Funktion ermöglicht eine direkte Kommunikation mit z. B. der Personalabteilung oder Teamleitung und reduziert manuellen Aufwand.
 
-3. Fazit und Ausblick:
+**3. Fazit und Ausblick:**
+
 Das Urlaubsantrags-Tool bietet eine simple, automatisierte Lösung zur Verwaltung von Urlaubsanträgen innerhalb von Excel. Durch einfache Bedienung, Echtzeitprüfung und integrierten Export ist es sowohl für kleine Teams als auch für wachsende Strukturen flexibel einsetzbar.
 Eine zukünftige Erweiterung könnte z. B. die Integration einer Übersicht aller Urlaubstage je Mitarbeiter oder ein Maximum an Urlaubern je Abteilung beinhalten.
 
-4. Sonstiges:
+**4. Sonstiges:**
+
 Das Modul „Modul_UrlaubKonflikteMitHinweis“ wurde während der Entwicklung zu Testzwecken verwendet. Es bietet zusätzlich eine interaktive Rückmeldung per MsgBox bei erkannten Konflikten, wird jedoch im aktuellen Stand des Tools nicht verwendet. Eine Integration zur Unterstützung weniger erfahrener Nutzer wäre denkbar.
