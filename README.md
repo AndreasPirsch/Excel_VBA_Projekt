@@ -21,8 +21,10 @@ Abbildung 1: Überschneidungsprüfung mit farblicher Markierung
 
 •	Button „Neuer Antrag“ (s. Code in Modul_NeueAnfrageHinzufuegen)
 erstellt automatisch eine neue Eingabezeile mit vorbereiteten Dropdowns.
+
 •	Dropdown-Felder für Statusauswahl
 Einheitliche Einträge zur Reduzierung von Fehlern.
+
 •	Sortierung nach Startdatum 
 Automatisch bei jeder Änderung: Übersicht bleibt erhalten.
 
@@ -33,6 +35,7 @@ Abbildung 2: Code aus Tabelle1(Urlaubsanträge)
 
 •	Export als PDF (s. Code in Modul_ExportiereAlsPDF)
 ermöglicht den einfachen Export der aktuellen Liste.
+
 •	Echtzeitprüfung über Worksheet-Events
 Jeder Eintrag wird direkt auf Gültigkeit geprüft – ohne zusätzliches Auslösen eines Makros.
 
@@ -50,5 +53,4 @@ Das Urlaubsantrags-Tool bietet eine simple, automatisierte Lösung zur Verwaltun
 Eine zukünftige Erweiterung könnte z. B. die Integration einer Übersicht aller Urlaubstage je Mitarbeiter oder ein Maximum an Urlaubern je Abteilung beinhalten.
 
 4. Sonstiges:
-
 Das Modul „Modul_UrlaubKonflikteMitHinweis“ wurde während der Entwicklung zu Testzwecken verwendet. Es bietet zusätzlich eine interaktive Rückmeldung per MsgBox bei erkannten Konflikten, wird jedoch im aktuellen Stand des Tools nicht verwendet. Eine Integration zur Unterstützung weniger erfahrener Nutzer wäre denkbar.
