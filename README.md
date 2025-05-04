@@ -1,4 +1,4 @@
-# Excel_VBA_Projekt
+# Urlaubsantrags-Tool – Übersicht & technische Umsetzung
 **1. Use-Case:**
 
 Das vorliegende Tool dient der digitalen Verwaltung von Urlaubsanträgen in Excel. Ziel ist es, Prozesse zur Antragstellung, Konfliktprüfung und Verwaltung effizient zu gestalten und in einer nutzerfreundlichen Umgebung darzustellen.
