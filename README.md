@@ -9,22 +9,25 @@ prüft bei jedem Antrag auf Überschneidungen mit bereits genehmigten Anträgen.
 o	Grün: Kein Konflikt
 o	Rot: Überschneidung
 o	Status basiert auf „offen“, „genehmigt“, „abgelehnt“
- 
+ ![grafik](https://github.com/user-attachments/assets/edc40549-3342-435b-b521-49a9d52e5eaa)
 Abbildung 1: Überschneidungsprüfung mit farblicher Markierung 
+
 •	Button „Neuer Antrag“ (s. Code in Modul_NeueAnfrageHinzufuegen)
 erstellt automatisch eine neue Eingabezeile mit vorbereiteten Dropdowns.
 •	Dropdown-Felder für Statusauswahl
 Einheitliche Einträge zur Reduzierung von Fehlern.
 •	Sortierung nach Startdatum 
 Automatisch bei jeder Änderung: Übersicht bleibt erhalten.
- 
+![grafik](https://github.com/user-attachments/assets/78b99efa-58ac-418b-b649-34c6aee6a636)
 Abbildung 2: Code aus Tabelle1(Urlaubsanträge)
+
 •	Export als PDF (s. Code in Modul_ExportiereAlsPDF)
 ermöglicht den einfachen Export der aktuellen Liste.
 •	Echtzeitprüfung über Worksheet-Events
 Jeder Eintrag wird direkt auf Gültigkeit geprüft – ohne zusätzliches Auslösen eines Makros.
- 
+![grafik](https://github.com/user-attachments/assets/1ddd0163-90cf-432f-890a-357cea7350a3)
 Abbildung 3: Code aus Tabelle1(Urlaubsanträge)
+
 •	Automatische E-Mail bei Statusänderung (s. Code in Modul_SendeStatusMail)
 Sobald sich der Status eines Urlaubsantrags ändert (z. B. von offen zu genehmigt oder abgelehnt), wird automatisch eine E-Mail über Microsoft Outlook generiert. Diese informiert über den Antragsteller, den Zeitraum und den neuen Status.
 Die Funktion ermöglicht eine direkte Kommunikation mit z. B. der Personalabteilung oder Teamleitung und reduziert manuellen Aufwand.
